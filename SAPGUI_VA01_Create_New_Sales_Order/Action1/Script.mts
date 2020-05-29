@@ -17,7 +17,7 @@ fnRandomNumberWithDateTimeStamp = Int(sDate & sMonth & sYear & sHour & sMinute &
 End Function
 '======================== End Function =====================
 
-Dim PONumber
+Dim PONumber, OrderNumber
 
 PONumber = "PO" & fnRandomNumberWithDateTimeStamp
 
@@ -58,7 +58,18 @@ SAPGuiWindowContext.SAPGuiButton("Save   (Ctrl+S)").Click										'Click the SA
 SAPGuiSession("Session").SAPGuiWindow("Create ZTA Standard Order:_2").SAPGuiStatusBar("StatusBar").Sync	'Wait for the StatusBar to finish @@ hightlight id_;_1_;_script infofile_;_ZIP::ssf8.xml_;_
 SAPGuiSession("Session").SAPGuiWindow("Save Incomplete Document").SAPGuiButton("Save").Click	'Click the "Save" button on the pop-up window @@ hightlight id_;_1_;_script infofile_;_ZIP::ssf9.xml_;_
 SAPGuiWindowContext.SAPGuiStatusBar("StatusBar").Sync											'Wait for the StatusBar to finish @@ hightlight id_;_1_;_script infofile_;_ZIP::ssf10.xml_;_
-SAPGuiWindowContext.SAPGuiStatusBar("StatusBar").Output CheckPoint("StatusBar")					'Output the order number @@ hightlight id_;_1_;_script infofile_;_ZIP::ssf11.xml_;_
+
+'===========================================================
+'	The below statements will show different ways to output the order number from the status bar text.
+'		There are other ways to handle outputs (e.g. with the datasheet, writing to a database table).
+'		1 - As an Output from a Checkpoint (stored in the Object Repository
+'		2 - As a variable that could be used in the script
+'		3 - As an Output Parameter for use when calling the Action
+'===========================================================
+SAPGuiWindowContext.SAPGuiStatusBar("StatusBar").Output CheckPoint("StatusBar")					'Output the order number as a checkpoint @@ hightlight id_;_1_;_script infofile_;_ZIP::ssf11.xml_;_
+OrderNumber = SAPGuiSession("Session").SAPGuiWindow("Create ZTA Standard Order:").SAPGuiStatusBar("StatusBar").GetROProperty("item2") ' Output the order number as a variable
+Parameter("OP_OrderNumber") = OrderNumber														'Output the OrderNumber as an Output Parameter
+
 SAPGuiWindowContext.SAPGuiButton("Exit   (Shift+F3)").Click										'Exit the TCode @@ hightlight id_;_1_;_script infofile_;_ZIP::ssf12.xml_;_
 
 Set SAPGuiWindowContext = SAPGuiSession("Session").SAPGuiWindow("SAP Easy Access")				'Set the WindowContext to make the script more readable
