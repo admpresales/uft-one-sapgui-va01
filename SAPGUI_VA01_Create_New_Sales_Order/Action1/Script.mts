@@ -62,7 +62,7 @@ SAPGuiWindowContext.SAPGuiStatusBar("StatusBar").Sync											'Wait for the St
 '===========================================================
 '	The below statements will show different ways to output the order number from the status bar text.
 '		There are other ways to handle outputs (e.g. with the datasheet, writing to a database table).
-'		1 - As an Output from a Checkpoint (stored in the Object Repository
+'		1 - As an Output from a Checkpoint (stored in the Object Repository)
 '		2 - As a variable that could be used in the script
 '		3 - As an Output Parameter for use when calling the Action
 '===========================================================
