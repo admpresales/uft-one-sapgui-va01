@@ -21,9 +21,9 @@ Dim PONumber
 
 PONumber = "PO" & fnRandomNumberWithDateTimeStamp
 
-Set SAPGuiWindowContext = SAPGuiSession("Session").SAPGuiWindow("SAP Easy Access")				'Set the WindowContext to make the script more readable
+Set SAPGuiWindowContext = SAPGuiSession("Session").SAPGuiWindow("SAP Easy Access")				'Set the WindowContext to make the script more readable.  This makes the keyword view LESS readable though.
 
-SAPGuiWindowContext.Maximize																	'Maximize the SAP GUI window									 @@ hightlight id_;_0_;_script infofile_;_ZIP::ssf1.xml_;_
+SAPGuiWindowContext.Maximize																	'Maximize the SAP GUI window @@ hightlight id_;_0_;_script infofile_;_ZIP::ssf1.xml_;_
 SAPGuiWindowContext.SAPGuiOKCode("OKCode").Set "/nva01"											'Enter the TCode with /n in front of it to ensure it's a new TCode window, not any existing open TCodes @@ hightlight id_;_1_;_script infofile_;_ZIP::ssf1.xml_;_
 SAPGuiWindowContext.SendKey ENTER																'Hit the Enter key to execute the TCode @@ hightlight id_;_0_;_script infofile_;_ZIP::ssf1.xml_;_
 
@@ -47,6 +47,11 @@ SAPGuiWindowContext.SAPGuiTable("All items").SetCellData 1,"Material","100-100"	
 SAPGuiWindowContext.SAPGuiTable("All items").SetCellData 1,"Order Quantity","1"					'Enter the Quantity for the first line, could be data driven from datasheet @@ hightlight id_;_1_;_script infofile_;_ZIP::ssf4.xml_;_
 SAPGuiWindowContext.SAPGuiTable("All items").SelectCell 1,"Order Quantity"						'Keep focus in the Order Quantity field, step could be removed, just showing how to do it @@ hightlight id_;_1_;_script infofile_;_ZIP::ssf4.xml_;_
 SAPGuiWindowContext.SAPGuiButton("Enter").Click													'Click the check/submit SAP GUI button @@ hightlight id_;_2_;_script infofile_;_ZIP::ssf4.xml_;_
+
+If SAPGuiSession("Session").SAPGuiWindow("Open quotations for item").Exist(5) Then
+	SAPGuiSession("Session").SAPGuiWindow("Open quotations for item").SAPGuiButton("Continue").Click
+End If
+
 SAPGuiSession("Session").SAPGuiWindow("ZTA Standard Order: Availabili").SAPGuiButton("Continue").Click	'Click the Continue button on the availability screen @@ hightlight id_;_1_;_script infofile_;_ZIP::ssf5.xml_;_
 SAPGuiWindowContext.SAPGuiStatusBar("StatusBar").Sync											'Wait for the StatusBar to finish @@ hightlight id_;_1_;_script infofile_;_ZIP::ssf6.xml_;_
 SAPGuiWindowContext.SAPGuiButton("Save   (Ctrl+S)").Click										'Click the SAPGUI Save button @@ hightlight id_;_1_;_script infofile_;_ZIP::ssf7.xml_;_
@@ -58,5 +63,8 @@ SAPGuiWindowContext.SAPGuiButton("Exit   (Shift+F3)").Click										'Exit the T
 
 Set SAPGuiWindowContext = SAPGuiSession("Session").SAPGuiWindow("SAP Easy Access")				'Set the WindowContext to make the script more readable
 
-SAPGuiWindowContext.SAPGuiButton("Log off   (Shift+F3)").Click									'Logoff of SAP @@ hightlight id_;_1_;_script infofile_;_ZIP::ssf16.xml_;_
-SAPGuiSession("Session").SAPGuiWindow("Log Off").SAPGuiButton("Yes").Click						'Click the Yes button on the logoff dialog screen @@ hightlight id_;_1_;_script infofile_;_ZIP::ssf17.xml_;_
+Set SAPGuiWindowContext = SAPGuiSession("Session").SAPGuiWindow("SAP Easy Access")				'Set the WindowContext to make the script more readable
+
+SAPGuiWindowContext.SAPGuiButton("Log off   (Shift+F3)").Click									'Logoff of SAP
+SAPGuiSession("Session").SAPGuiWindow("Log Off").SAPGuiButton("Yes").Click						'Click the Yes button on the logoff dialog screen
+
