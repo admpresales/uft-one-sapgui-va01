@@ -1,0 +1,1 @@
+﻿var __testDataSource={items:[{dataFilePath:'Default.xlsx',dataFileFormat:'excel',dataFileFolder:'C:\\Users\\demo\\Documents\\Unified Functional Testing\\uft-one-sapgui-va01\\SAPGUI_VA01_Create_New_Sales_Order\\Res2',namePairs:[]}]};

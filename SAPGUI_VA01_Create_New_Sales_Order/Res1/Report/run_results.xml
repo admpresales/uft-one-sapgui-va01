@@ -1,0 +1,1694 @@
+<?xml version="1.0"?>
+<Results version="1.0">
+<ReportNode type="testrun">
+<ReportNode type="Iteration">
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>StartUp Browser.Navigate</Name>
+    <Description>Navigate to about:blank</Description>
+    <StartTime>2020-05-29 09:49:24</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[StartUp Browser]]></Name>
+          </Object>
+        </Path>
+        <Operation>Navigate</Operation>
+        <OperationData><![CDATA[Navigate to about:blank]]></OperationData>
+      </TestObject>
+      <IconKey>6b73ceccd58e47aaa64934aebf91968d</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\7d69e2a3-03f2-48a0-987f-b8c22a38e2b3.jpeg" highlight="0,0,1658,906" />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>StartUp Browser.Sync</Name>
+    <Description />
+    <StartTime>2020-05-29 09:49:25</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[StartUp Browser]]></Name>
+          </Object>
+        </Path>
+        <Operation>Sync</Operation>
+      </TestObject>
+      <IconKey>6b73ceccd58e47aaa64934aebf91968d</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\18d4a9fb-5134-47fa-aa8d-720fc7a87624.jpeg" highlight="0,0,1658,906" />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>StartUp Browser</Name>
+    <Description>&lt;table&gt;&lt;tr&gt;&lt;td&gt;&lt;span style="text-align : left; font-size : 12px; "&gt;Local Browser&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</Description>
+    <StartTime>2020-05-29 09:49:24</StartTime>
+    <Duration>1</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[StartUp Browser]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[<table><tr><td><span style="text-align : left; font-size : 12px; ">Local Browser</span></td></tr></table>]]></OperationData>
+      </TestObject>
+      <IconKey>6b73ceccd58e47aaa64934aebf91968d</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Action">
+<ReportNode type="Context">
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>Maximize</Name>
+    <Description>Maximize</Description>
+    <StartTime>2020-05-29 09:49:25</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>SAPGuiSession</Type>
+            <Name><![CDATA[Session]]></Name>
+          </Object>
+          <Object>
+            <Type>SAPGuiWindow</Type>
+            <Name><![CDATA[SAP Easy Access]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Maximize]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[transaction]]></Name>
+            <Value><![CDATA[SESSION_MANAGER]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[screennumber]]></Name>
+            <Value><![CDATA[100]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[program]]></Name>
+            <Value><![CDATA[SAPLSMTR_NAVIGATION]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[name]]></Name>
+            <Value><![CDATA[wnd[0]]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[guicomponenttype]]></Name>
+            <Value><![CDATA[21]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>104baf4959804373a134c8fdfd1a09a7</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\ae56d0d5-f78b-4464-9243-b3c6dbb54894.jpeg" />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>"OKCode":Set "/nva01"</Name>
+    <Description>Set "/nva01"</Description>
+    <StartTime>2020-05-29 09:49:26</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>SAPGuiSession</Type>
+            <Name><![CDATA[Session]]></Name>
+          </Object>
+          <Object>
+            <Type>SAPGuiWindow</Type>
+            <Name><![CDATA[SAP Easy Access]]></Name>
+          </Object>
+          <Object>
+            <Type>SAPGuiOKCode</Type>
+            <Name><![CDATA[OKCode]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Set "/nva01"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[guicomponenttype]]></Name>
+            <Value><![CDATA[35]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>fb638514e4f14a32ba27a16abbc20acf</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\56ae27f1-e6ae-4e25-81e4-dd210cf0be90.jpeg" />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>SendKey ENTER</Name>
+    <Description>SendKey ENTER</Description>
+    <StartTime>2020-05-29 09:49:26</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>SAPGuiSession</Type>
+            <Name><![CDATA[Session]]></Name>
+          </Object>
+          <Object>
+            <Type>SAPGuiWindow</Type>
+            <Name><![CDATA[SAP Easy Access]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[SendKey ENTER]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[transaction]]></Name>
+            <Value><![CDATA[SESSION_MANAGER]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[screennumber]]></Name>
+            <Value><![CDATA[100]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[program]]></Name>
+            <Value><![CDATA[SAPLSMTR_NAVIGATION]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[name]]></Name>
+            <Value><![CDATA[wnd[0]]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[guicomponenttype]]></Name>
+            <Value><![CDATA[21]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>104baf4959804373a134c8fdfd1a09a7</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\45c2c5bc-eb82-4f55-ba73-2e59891cab73.jpeg" />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>SAP Easy Access</Name>
+    <Description>SAPGuiWindow</Description>
+    <StartTime>2020-05-29 09:49:25</StartTime>
+    <Duration>2</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>SAPGuiSession</Type>
+            <Name><![CDATA[Session]]></Name>
+          </Object>
+          <Object>
+            <Type>SAPGuiWindow</Type>
+            <Name><![CDATA[SAP Easy Access]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[SAPGuiWindow]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[transaction]]></Name>
+            <Value><![CDATA[SESSION_MANAGER]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[screennumber]]></Name>
+            <Value><![CDATA[100]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[program]]></Name>
+            <Value><![CDATA[SAPLSMTR_NAVIGATION]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[name]]></Name>
+            <Value><![CDATA[wnd[0]]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[guicomponenttype]]></Name>
+            <Value><![CDATA[21]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>104baf4959804373a134c8fdfd1a09a7</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>"Order Type":Set "zta"</Name>
+    <Description>Set "zta"</Description>
+    <StartTime>2020-05-29 09:49:27</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>SAPGuiSession</Type>
+            <Name><![CDATA[Session]]></Name>
+          </Object>
+          <Object>
+            <Type>SAPGuiWindow</Type>
+            <Name><![CDATA[Create Sales Order: Initial]]></Name>
+          </Object>
+          <Object>
+            <Type>SAPGuiEdit</Type>
+            <Name><![CDATA[Order Type]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Set "zta"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[name]]></Name>
+            <Value><![CDATA[VBAK-AUART]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[guicomponenttype]]></Name>
+            <Value><![CDATA[32]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>2700eb5ebb5d46e5b873c30133f8904c</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\b8755a84-cc4c-42f0-a41c-9ec3447b0e1f.jpeg" />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>"Sales Organization":Set "3020"</Name>
+    <Description>Set "3020"</Description>
+    <StartTime>2020-05-29 09:49:27</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>SAPGuiSession</Type>
+            <Name><![CDATA[Session]]></Name>
+          </Object>
+          <Object>
+            <Type>SAPGuiWindow</Type>
+            <Name><![CDATA[Create Sales Order: Initial]]></Name>
+          </Object>
+          <Object>
+            <Type>SAPGuiEdit</Type>
+            <Name><![CDATA[Sales Organization]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Set "3020"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[name]]></Name>
+            <Value><![CDATA[VBAK-VKORG]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[guicomponenttype]]></Name>
+            <Value><![CDATA[32]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>2700eb5ebb5d46e5b873c30133f8904c</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\851e2222-ddd0-4203-a639-9f065bdf20ed.jpeg" />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>"Distribution Channel":Set "30"</Name>
+    <Description>Set "30"</Description>
+    <StartTime>2020-05-29 09:49:27</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>SAPGuiSession</Type>
+            <Name><![CDATA[Session]]></Name>
+          </Object>
+          <Object>
+            <Type>SAPGuiWindow</Type>
+            <Name><![CDATA[Create Sales Order: Initial]]></Name>
+          </Object>
+          <Object>
+            <Type>SAPGuiEdit</Type>
+            <Name><![CDATA[Distribution Channel]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Set "30"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[name]]></Name>
+            <Value><![CDATA[VBAK-VTWEG]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[guicomponenttype]]></Name>
+            <Value><![CDATA[32]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>2700eb5ebb5d46e5b873c30133f8904c</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\a8d9c6b4-b1db-4d9a-9d28-fc570a4adeae.jpeg" />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>"Division":Set "00"</Name>
+    <Description>Set "00"</Description>
+    <StartTime>2020-05-29 09:49:27</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>SAPGuiSession</Type>
+            <Name><![CDATA[Session]]></Name>
+          </Object>
+          <Object>
+            <Type>SAPGuiWindow</Type>
+            <Name><![CDATA[Create Sales Order: Initial]]></Name>
+          </Object>
+          <Object>
+            <Type>SAPGuiEdit</Type>
+            <Name><![CDATA[Division]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Set "00"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[name]]></Name>
+            <Value><![CDATA[VBAK-SPART]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[guicomponenttype]]></Name>
+            <Value><![CDATA[32]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>2700eb5ebb5d46e5b873c30133f8904c</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\7cf4bacf-0e53-44ea-acac-52dceb77ae1d.jpeg" />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>"Division":SetFocus</Name>
+    <Description>SetFocus</Description>
+    <StartTime>2020-05-29 09:49:27</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>SAPGuiSession</Type>
+            <Name><![CDATA[Session]]></Name>
+          </Object>
+          <Object>
+            <Type>SAPGuiWindow</Type>
+            <Name><![CDATA[Create Sales Order: Initial]]></Name>
+          </Object>
+          <Object>
+            <Type>SAPGuiEdit</Type>
+            <Name><![CDATA[Division]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[SetFocus]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[name]]></Name>
+            <Value><![CDATA[VBAK-SPART]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[guicomponenttype]]></Name>
+            <Value><![CDATA[32]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>2700eb5ebb5d46e5b873c30133f8904c</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\1377a9c2-5a98-4728-997c-0dc80b83bd72.jpeg" />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>"Enter":Click</Name>
+    <Description>Click</Description>
+    <StartTime>2020-05-29 09:49:28</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>SAPGuiSession</Type>
+            <Name><![CDATA[Session]]></Name>
+          </Object>
+          <Object>
+            <Type>SAPGuiWindow</Type>
+            <Name><![CDATA[Create Sales Order: Initial]]></Name>
+          </Object>
+          <Object>
+            <Type>SAPGuiButton</Type>
+            <Name><![CDATA[Enter]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Click]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[name]]></Name>
+            <Value><![CDATA[btn[0]]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[guicomponenttype]]></Name>
+            <Value><![CDATA[40]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>f1329a095e444670ab853b1d347c0458</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\cc5e4a28-4abf-42ec-a29b-4df2803df44c.jpeg" />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Create Sales Order: Initial</Name>
+    <Description>SAPGuiWindow</Description>
+    <StartTime>2020-05-29 09:49:27</StartTime>
+    <Duration>2</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>SAPGuiSession</Type>
+            <Name><![CDATA[Session]]></Name>
+          </Object>
+          <Object>
+            <Type>SAPGuiWindow</Type>
+            <Name><![CDATA[Create Sales Order: Initial]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[SAPGuiWindow]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[transaction]]></Name>
+            <Value><![CDATA[VA01]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[screennumber]]></Name>
+            <Value><![CDATA[101]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[program]]></Name>
+            <Value><![CDATA[SAPMV45A]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[name]]></Name>
+            <Value><![CDATA[wnd[0]]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[guicomponenttype]]></Name>
+            <Value><![CDATA[21]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>104baf4959804373a134c8fdfd1a09a7</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>"PO Number":Set "295202094925"</Name>
+    <Description>Set "295202094925"</Description>
+    <StartTime>2020-05-29 09:49:29</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>SAPGuiSession</Type>
+            <Name><![CDATA[Session]]></Name>
+          </Object>
+          <Object>
+            <Type>SAPGuiWindow</Type>
+            <Name><![CDATA[Create ZTA Standard Order:]]></Name>
+          </Object>
+          <Object>
+            <Type>SAPGuiEdit</Type>
+            <Name><![CDATA[PO Number]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Set "295202094925"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[name]]></Name>
+            <Value><![CDATA[VBKD-BSTKD]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[guicomponenttype]]></Name>
+            <Value><![CDATA[31]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>2700eb5ebb5d46e5b873c30133f8904c</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\e5613d20-1c83-450b-bc4f-e79a900cb517.jpeg" />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>"Sold-to party":Set "271"</Name>
+    <Description>Set "271"</Description>
+    <StartTime>2020-05-29 09:49:29</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>SAPGuiSession</Type>
+            <Name><![CDATA[Session]]></Name>
+          </Object>
+          <Object>
+            <Type>SAPGuiWindow</Type>
+            <Name><![CDATA[Create ZTA Standard Order:]]></Name>
+          </Object>
+          <Object>
+            <Type>SAPGuiEdit</Type>
+            <Name><![CDATA[Sold-to party]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Set "271"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[name]]></Name>
+            <Value><![CDATA[KUAGV-KUNNR]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[guicomponenttype]]></Name>
+            <Value><![CDATA[32]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>2700eb5ebb5d46e5b873c30133f8904c</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\171dee67-099c-49eb-9add-e16f34d0ee66.jpeg" />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>"Ship-to party":Set "271"</Name>
+    <Description>Set "271"</Description>
+    <StartTime>2020-05-29 09:49:29</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>SAPGuiSession</Type>
+            <Name><![CDATA[Session]]></Name>
+          </Object>
+          <Object>
+            <Type>SAPGuiWindow</Type>
+            <Name><![CDATA[Create ZTA Standard Order:]]></Name>
+          </Object>
+          <Object>
+            <Type>SAPGuiEdit</Type>
+            <Name><![CDATA[Ship-to party]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Set "271"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[name]]></Name>
+            <Value><![CDATA[KUWEV-KUNNR]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[guicomponenttype]]></Name>
+            <Value><![CDATA[32]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>2700eb5ebb5d46e5b873c30133f8904c</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\8e958d80-0f4e-4a20-b1bb-c2f159e70dd2.jpeg" />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>"PO Number":SetFocus</Name>
+    <Description>SetFocus</Description>
+    <StartTime>2020-05-29 09:49:29</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>SAPGuiSession</Type>
+            <Name><![CDATA[Session]]></Name>
+          </Object>
+          <Object>
+            <Type>SAPGuiWindow</Type>
+            <Name><![CDATA[Create ZTA Standard Order:]]></Name>
+          </Object>
+          <Object>
+            <Type>SAPGuiEdit</Type>
+            <Name><![CDATA[PO Number]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[SetFocus]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[name]]></Name>
+            <Value><![CDATA[VBKD-BSTKD]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[guicomponenttype]]></Name>
+            <Value><![CDATA[31]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>2700eb5ebb5d46e5b873c30133f8904c</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\d23d3102-634d-4a3b-93f9-4f1cb9195db8.jpeg" />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>SendKey ENTER</Name>
+    <Description>SendKey ENTER</Description>
+    <StartTime>2020-05-29 09:49:30</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>SAPGuiSession</Type>
+            <Name><![CDATA[Session]]></Name>
+          </Object>
+          <Object>
+            <Type>SAPGuiWindow</Type>
+            <Name><![CDATA[Create ZTA Standard Order:]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[SendKey ENTER]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[transaction]]></Name>
+            <Value><![CDATA[VA01]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[screennumber]]></Name>
+            <Value><![CDATA[4001]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[program]]></Name>
+            <Value><![CDATA[SAPMV45A]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[name]]></Name>
+            <Value><![CDATA[wnd[0]]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[guicomponenttype]]></Name>
+            <Value><![CDATA[21]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>104baf4959804373a134c8fdfd1a09a7</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\f9abb260-4ae3-463a-8c7c-90f3454e3579.jpeg" />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>"All items":SetCellData 1,"Material","100-100"</Name>
+    <Description>SetCellData 1,"Material","100-100"</Description>
+    <StartTime>2020-05-29 09:49:30</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>SAPGuiSession</Type>
+            <Name><![CDATA[Session]]></Name>
+          </Object>
+          <Object>
+            <Type>SAPGuiWindow</Type>
+            <Name><![CDATA[Create ZTA Standard Order:]]></Name>
+          </Object>
+          <Object>
+            <Type>SAPGuiTable</Type>
+            <Name><![CDATA[All items]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[SetCellData 1,"Material","100-100"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[name]]></Name>
+            <Value><![CDATA[SAPMV45ATCTRL_U_ERF_AUFTRAG]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[guicomponenttype]]></Name>
+            <Value><![CDATA[80]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>338bc2b5fb19465f9ecc2f7380dd56e8</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\2cc6f1cc-640f-4fc2-8a67-a0f98af44028.jpeg" />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>"All items":SetCellData 1,"Order Quantity","1"</Name>
+    <Description>SetCellData 1,"Order Quantity","1"</Description>
+    <StartTime>2020-05-29 09:49:30</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>SAPGuiSession</Type>
+            <Name><![CDATA[Session]]></Name>
+          </Object>
+          <Object>
+            <Type>SAPGuiWindow</Type>
+            <Name><![CDATA[Create ZTA Standard Order:]]></Name>
+          </Object>
+          <Object>
+            <Type>SAPGuiTable</Type>
+            <Name><![CDATA[All items]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[SetCellData 1,"Order Quantity","1"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[name]]></Name>
+            <Value><![CDATA[SAPMV45ATCTRL_U_ERF_AUFTRAG]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[guicomponenttype]]></Name>
+            <Value><![CDATA[80]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>338bc2b5fb19465f9ecc2f7380dd56e8</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\e34b116c-744f-41e2-b6cb-534034239bd4.jpeg" />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>"All items":SelectCell 1,"Order Quantity"</Name>
+    <Description>SelectCell 1,"Order Quantity"</Description>
+    <StartTime>2020-05-29 09:49:31</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>SAPGuiSession</Type>
+            <Name><![CDATA[Session]]></Name>
+          </Object>
+          <Object>
+            <Type>SAPGuiWindow</Type>
+            <Name><![CDATA[Create ZTA Standard Order:]]></Name>
+          </Object>
+          <Object>
+            <Type>SAPGuiTable</Type>
+            <Name><![CDATA[All items]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[SelectCell 1,"Order Quantity"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[name]]></Name>
+            <Value><![CDATA[SAPMV45ATCTRL_U_ERF_AUFTRAG]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[guicomponenttype]]></Name>
+            <Value><![CDATA[80]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>338bc2b5fb19465f9ecc2f7380dd56e8</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\5cf5f4a6-480d-4baf-a939-eb42b153e891.jpeg" />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>"Enter":Click</Name>
+    <Description>Click</Description>
+    <StartTime>2020-05-29 09:49:34</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>SAPGuiSession</Type>
+            <Name><![CDATA[Session]]></Name>
+          </Object>
+          <Object>
+            <Type>SAPGuiWindow</Type>
+            <Name><![CDATA[Create ZTA Standard Order:]]></Name>
+          </Object>
+          <Object>
+            <Type>SAPGuiButton</Type>
+            <Name><![CDATA[Enter]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Click]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[name]]></Name>
+            <Value><![CDATA[btn[0]]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[guicomponenttype]]></Name>
+            <Value><![CDATA[40]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>f1329a095e444670ab853b1d347c0458</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\6257bb27-6c99-43cd-a95b-73c93389103a.jpeg" />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Create ZTA Standard Order:</Name>
+    <Description>SAPGuiWindow</Description>
+    <StartTime>2020-05-29 09:49:29</StartTime>
+    <Duration>6</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>SAPGuiSession</Type>
+            <Name><![CDATA[Session]]></Name>
+          </Object>
+          <Object>
+            <Type>SAPGuiWindow</Type>
+            <Name><![CDATA[Create ZTA Standard Order:]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[SAPGuiWindow]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[transaction]]></Name>
+            <Value><![CDATA[VA01]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[screennumber]]></Name>
+            <Value><![CDATA[4001]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[program]]></Name>
+            <Value><![CDATA[SAPMV45A]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[name]]></Name>
+            <Value><![CDATA[wnd[0]]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[guicomponenttype]]></Name>
+            <Value><![CDATA[21]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>104baf4959804373a134c8fdfd1a09a7</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>"Continue":Click</Name>
+    <Description>Click</Description>
+    <StartTime>2020-05-29 09:49:35</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>SAPGuiSession</Type>
+            <Name><![CDATA[Session]]></Name>
+          </Object>
+          <Object>
+            <Type>SAPGuiWindow</Type>
+            <Name><![CDATA[ZTA Standard Order: Availabili]]></Name>
+          </Object>
+          <Object>
+            <Type>SAPGuiButton</Type>
+            <Name><![CDATA[Continue]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Click]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[name]]></Name>
+            <Value><![CDATA[btn[18]]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[guicomponenttype]]></Name>
+            <Value><![CDATA[40]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>f1329a095e444670ab853b1d347c0458</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\7dcc025d-d6f7-480f-a1c6-d3675cde1a5b.jpeg" />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>ZTA Standard Order: Availabili</Name>
+    <Description>SAPGuiWindow</Description>
+    <StartTime>2020-05-29 09:49:35</StartTime>
+    <Duration>4</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>SAPGuiSession</Type>
+            <Name><![CDATA[Session]]></Name>
+          </Object>
+          <Object>
+            <Type>SAPGuiWindow</Type>
+            <Name><![CDATA[ZTA Standard Order: Availabili]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[SAPGuiWindow]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[transaction]]></Name>
+            <Value><![CDATA[VA01]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[screennumber]]></Name>
+            <Value><![CDATA[500]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[program]]></Name>
+            <Value><![CDATA[SAPLATP4]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[name]]></Name>
+            <Value><![CDATA[wnd[0]]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[guicomponenttype]]></Name>
+            <Value><![CDATA[21]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>104baf4959804373a134c8fdfd1a09a7</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>"StatusBar":Communication error with the external tax system (VERTEX_MS0018)</Name>
+    <Description>Success</Description>
+    <StartTime>2020-05-29 09:49:39</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>SAPGuiSession</Type>
+            <Name><![CDATA[Session]]></Name>
+          </Object>
+          <Object>
+            <Type>SAPGuiWindow</Type>
+            <Name><![CDATA[Create ZTA Standard Order:]]></Name>
+          </Object>
+          <Object>
+            <Type>SAPGuiStatusBar</Type>
+            <Name><![CDATA[StatusBar]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Success]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[guicomponenttype]]></Name>
+            <Value><![CDATA[103]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>70b2200abf2c4491ac98dbec012bed2f</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\5d86dd8c-6ebf-44eb-9a88-928eba5336ed.jpeg" />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>"Save   (Ctrl+S)":Click</Name>
+    <Description>Click</Description>
+    <StartTime>2020-05-29 09:49:40</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>SAPGuiSession</Type>
+            <Name><![CDATA[Session]]></Name>
+          </Object>
+          <Object>
+            <Type>SAPGuiWindow</Type>
+            <Name><![CDATA[Create ZTA Standard Order:]]></Name>
+          </Object>
+          <Object>
+            <Type>SAPGuiButton</Type>
+            <Name><![CDATA[Save   (Ctrl+S)]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Click]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[name]]></Name>
+            <Value><![CDATA[btn[11]]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[guicomponenttype]]></Name>
+            <Value><![CDATA[40]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>f1329a095e444670ab853b1d347c0458</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\1fc93b4b-8c15-4d42-a11a-26226d74fcf6.jpeg" />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Create ZTA Standard Order:</Name>
+    <Description>SAPGuiWindow</Description>
+    <StartTime>2020-05-29 09:49:39</StartTime>
+    <Duration>1</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>SAPGuiSession</Type>
+            <Name><![CDATA[Session]]></Name>
+          </Object>
+          <Object>
+            <Type>SAPGuiWindow</Type>
+            <Name><![CDATA[Create ZTA Standard Order:]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[SAPGuiWindow]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[transaction]]></Name>
+            <Value><![CDATA[VA01]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[screennumber]]></Name>
+            <Value><![CDATA[4001]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[program]]></Name>
+            <Value><![CDATA[SAPMV45A]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[name]]></Name>
+            <Value><![CDATA[wnd[0]]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[guicomponenttype]]></Name>
+            <Value><![CDATA[21]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>104baf4959804373a134c8fdfd1a09a7</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>"StatusBar":Communication error with the external tax system (VERTEX_MS0018)</Name>
+    <Description>Success</Description>
+    <StartTime>2020-05-29 09:49:40</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>SAPGuiSession</Type>
+            <Name><![CDATA[Session]]></Name>
+          </Object>
+          <Object>
+            <Type>SAPGuiWindow</Type>
+            <Name><![CDATA[Create ZTA Standard Order:_2]]></Name>
+          </Object>
+          <Object>
+            <Type>SAPGuiStatusBar</Type>
+            <Name><![CDATA[StatusBar]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Success]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[guicomponenttype]]></Name>
+            <Value><![CDATA[103]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>70b2200abf2c4491ac98dbec012bed2f</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\a8a74c0c-c1c8-46bc-afd9-558eefa00ae0.jpeg" />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Create ZTA Standard Order:_2</Name>
+    <Description>SAPGuiWindow</Description>
+    <StartTime>2020-05-29 09:49:40</StartTime>
+    <Duration>2</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>SAPGuiSession</Type>
+            <Name><![CDATA[Session]]></Name>
+          </Object>
+          <Object>
+            <Type>SAPGuiWindow</Type>
+            <Name><![CDATA[Create ZTA Standard Order:_2]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[SAPGuiWindow]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[transaction]]></Name>
+            <Value><![CDATA[VA01]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[screennumber]]></Name>
+            <Value><![CDATA[101]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[program]]></Name>
+            <Value><![CDATA[SAPLSPO2]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[name]]></Name>
+            <Value><![CDATA[wnd[0]]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[guicomponenttype]]></Name>
+            <Value><![CDATA[21]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>104baf4959804373a134c8fdfd1a09a7</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>"Save":Click</Name>
+    <Description>Click</Description>
+    <StartTime>2020-05-29 09:49:42</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>SAPGuiSession</Type>
+            <Name><![CDATA[Session]]></Name>
+          </Object>
+          <Object>
+            <Type>SAPGuiWindow</Type>
+            <Name><![CDATA[Save Incomplete Document]]></Name>
+          </Object>
+          <Object>
+            <Type>SAPGuiButton</Type>
+            <Name><![CDATA[Save]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Click]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[name]]></Name>
+            <Value><![CDATA[SPOP-VAROPTION1]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[guicomponenttype]]></Name>
+            <Value><![CDATA[40]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>f1329a095e444670ab853b1d347c0458</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\84905898-6245-45a0-b797-e2cf20d0f589.jpeg" />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Save Incomplete Document</Name>
+    <Description>SAPGuiWindow</Description>
+    <StartTime>2020-05-29 09:49:42</StartTime>
+    <Duration>4</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>SAPGuiSession</Type>
+            <Name><![CDATA[Session]]></Name>
+          </Object>
+          <Object>
+            <Type>SAPGuiWindow</Type>
+            <Name><![CDATA[Save Incomplete Document]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[SAPGuiWindow]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[transaction]]></Name>
+            <Value><![CDATA[VA01]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[screennumber]]></Name>
+            <Value><![CDATA[101]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[program]]></Name>
+            <Value><![CDATA[SAPLSPO2]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[name]]></Name>
+            <Value><![CDATA[wnd[1]]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[guicomponenttype]]></Name>
+            <Value><![CDATA[22]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>104baf4959804373a134c8fdfd1a09a7</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>"StatusBar":ZTA Standard Order 12926 has been saved</Name>
+    <Description>Success</Description>
+    <StartTime>2020-05-29 09:49:46</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>SAPGuiSession</Type>
+            <Name><![CDATA[Session]]></Name>
+          </Object>
+          <Object>
+            <Type>SAPGuiWindow</Type>
+            <Name><![CDATA[Create ZTA Standard Order:]]></Name>
+          </Object>
+          <Object>
+            <Type>SAPGuiStatusBar</Type>
+            <Name><![CDATA[StatusBar]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Success]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[guicomponenttype]]></Name>
+            <Value><![CDATA[103]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>70b2200abf2c4491ac98dbec012bed2f</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\452012be-2a88-42d0-a91c-29caf837c952.jpeg" />
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Checkpoint">
+<Data>
+    <Name>"StatusBar"</Name>
+    <Description> </Description>
+    <StartTime>2020-05-29 09:49:46</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>SAPGuiSession</Type>
+            <Name><![CDATA[Session]]></Name>
+          </Object>
+          <Object>
+            <Type>SAPGuiWindow</Type>
+            <Name><![CDATA[Create ZTA Standard Order:]]></Name>
+          </Object>
+          <Object>
+            <Type>SAPGuiStatusBar</Type>
+            <Name><![CDATA[StatusBar]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[ ]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[guicomponenttype]]></Name>
+            <Value><![CDATA[103]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <Checkpoint>
+        <Type>Standard Output</Type>
+        <Properties>
+          <Property>
+            <StdOutputPropertyName><![CDATA[item2]]></StdOutputPropertyName>
+            <StdOutputCapturedValue><![CDATA[12926]]></StdOutputCapturedValue>
+            <StdOutputType><![CDATA[DataTable]]></StdOutputType>
+            <StdOutputName><![CDATA[StatusBar_item2_out]]></StdOutputName>
+          </Property>
+        </Properties>
+        <ShortDescription>Output passed.</ShortDescription>
+      </Checkpoint>
+      <IconKey>70b2200abf2c4491ac98dbec012bed2f</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\7107defa-1b0c-481d-8c66-d4ba6e910c13.jpeg" />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>StatusBar</Name>
+    <Description>SAPGuiStatusBar</Description>
+    <StartTime>2020-05-29 09:49:46</StartTime>
+    <Duration>1</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>SAPGuiSession</Type>
+            <Name><![CDATA[Session]]></Name>
+          </Object>
+          <Object>
+            <Type>SAPGuiWindow</Type>
+            <Name><![CDATA[Create ZTA Standard Order:]]></Name>
+          </Object>
+          <Object>
+            <Type>SAPGuiStatusBar</Type>
+            <Name><![CDATA[StatusBar]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[SAPGuiStatusBar]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[guicomponenttype]]></Name>
+            <Value><![CDATA[103]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>70b2200abf2c4491ac98dbec012bed2f</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>"Exit   (Shift+F3)":Click</Name>
+    <Description>Click</Description>
+    <StartTime>2020-05-29 09:49:47</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>SAPGuiSession</Type>
+            <Name><![CDATA[Session]]></Name>
+          </Object>
+          <Object>
+            <Type>SAPGuiWindow</Type>
+            <Name><![CDATA[Create ZTA Standard Order:]]></Name>
+          </Object>
+          <Object>
+            <Type>SAPGuiButton</Type>
+            <Name><![CDATA[Exit   (Shift+F3)]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Click]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[name]]></Name>
+            <Value><![CDATA[btn[15]]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[guicomponenttype]]></Name>
+            <Value><![CDATA[40]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>f1329a095e444670ab853b1d347c0458</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\65cd8288-c895-48d5-98f4-d288f934ec55.jpeg" />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Create ZTA Standard Order:</Name>
+    <Description>SAPGuiWindow</Description>
+    <StartTime>2020-05-29 09:49:46</StartTime>
+    <Duration>1</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>SAPGuiSession</Type>
+            <Name><![CDATA[Session]]></Name>
+          </Object>
+          <Object>
+            <Type>SAPGuiWindow</Type>
+            <Name><![CDATA[Create ZTA Standard Order:]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[SAPGuiWindow]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[transaction]]></Name>
+            <Value><![CDATA[VA01]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[screennumber]]></Name>
+            <Value><![CDATA[4001]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[program]]></Name>
+            <Value><![CDATA[SAPMV45A]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[name]]></Name>
+            <Value><![CDATA[wnd[0]]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[guicomponenttype]]></Name>
+            <Value><![CDATA[21]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>104baf4959804373a134c8fdfd1a09a7</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Session</Name>
+    <Description>SAPGuiSession</Description>
+    <StartTime>2020-05-29 09:49:25</StartTime>
+    <Duration>22</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>SAPGuiSession</Type>
+            <Name><![CDATA[Session]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[SAPGuiSession]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[name]]></Name>
+            <Value><![CDATA[ses[0]]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[guicomponenttype]]></Name>
+            <Value><![CDATA[12]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>5b5b695b4007495581227122a14ee357</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Action1</Name>
+    <Description />
+    <StartTime>2020-05-29 09:49:25</StartTime>
+    <Duration>22</Duration>
+    <Result>Done</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>baee38574adb47fc8e1068ac45e60ec0</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Action0</Name>
+    <Description />
+    <StartTime>2020-05-29 09:49:24</StartTime>
+    <Duration>23</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>673564fb28ec4551845f0d9898cd3880</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Index>1</Index>
+    <TestedApplications>
+      <TestedApplication>
+        <RuntimeEngineInfo />
+        <Name>Google Chrome</Name>
+        <Path>C:\Program Files (x86)\Google\Chrome\Application\chrome.exe</Path>
+        <Version>81.0</Version>
+        <Technology>web</Technology>
+        <Reserved />
+        <AdditionalInfos>
+          <Info>about:blank</Info>
+        </AdditionalInfos>
+      </TestedApplication>
+    </TestedApplications>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>SAPGUI_VA01_Create_New_Sales_Order</Name>
+    <ToolName>Micro Focus Unified Functional Testing</ToolName>
+    <ToolVersion>0</ToolVersion>
+    <ToolVersionStringLiteral>15.0.1</ToolVersionStringLiteral>
+    <Description />
+    <StartTime>2020-05-29 09:49:22</StartTime>
+    <Duration>25</Duration>
+    <Result>Done</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>cea11800666745a2815fa1051b907e40</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Environment>
+      <Timezone>-07:00:00</Timezone>
+      <Locale>English (United States)</Locale>
+      <User>demo</User>
+      <CpuInfo>Intel(R) Core(TM) i7-8850H CPU @ 2.60GHz</CpuInfo>
+      <NumberOfCores>4</NumberOfCores>
+      <TotalMemory>8191</TotalMemory>
+      <HostName>NIMBUSCLIENT</HostName>
+      <OSInfo>Windows 10</OSInfo>
+    </Environment>
+    <TestedApplications />
+    <Links>
+      <Link type="DataTable" reference="Default.xlsx" displayname="Default Data Table" />
+    </Links>
+  </Data>
+</ReportNode>
+<GeneralInfo>
+    <ResultName>Res1</ResultName>
+    <RunStartTime>2020-05-29 09:49:22</RunStartTime>
+    <Timezone>-07:00:00</Timezone>
+    <OrchestrationToolName>Micro Focus Unified Functional Testing</OrchestrationToolName>
+    <OrchestrationToolVersion>0</OrchestrationToolVersion>
+    <OrchestrationToolVersionStringLiteral>15.0.1</OrchestrationToolVersionStringLiteral>
+  </GeneralInfo>
+</Results>
