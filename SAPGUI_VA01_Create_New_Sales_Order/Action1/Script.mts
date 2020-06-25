@@ -29,22 +29,22 @@ SAPGuiWindowContext.SendKey ENTER																'Hit the Enter key to execute t
 
 Set SAPGuiWindowContext = SAPGuiSession("Session").SAPGuiWindow("Create Sales Order: Initial")	'Set the WindowContext to make the script more readable
 
-SAPGuiWindowContext.SAPGuiEdit("Order Type").Set "zta"											'Set the order type, could be data driven from datasheet @@ hightlight id_;_1_;_script infofile_;_ZIP::ssf2.xml_;_
-SAPGuiWindowContext.SAPGuiEdit("Sales Organization").Set "3020"									'Set the Sales Org, could be data driven from datasheet @@ hightlight id_;_2_;_script infofile_;_ZIP::ssf2.xml_;_
-SAPGuiWindowContext.SAPGuiEdit("Distribution Channel").Set "30"									'Set the Dist. Channel, could be data driven from datasheet @@ hightlight id_;_3_;_script infofile_;_ZIP::ssf2.xml_;_
-SAPGuiWindowContext.SAPGuiEdit("Division").Set "00"												'Set the Devision, could be data driven from datasheet @@ hightlight id_;_4_;_script infofile_;_ZIP::ssf2.xml_;_
+SAPGuiWindowContext.SAPGuiEdit("Order Type").Set "zta"											'Set the order type, could be data driven from datasheet or a parameter @@ hightlight id_;_1_;_script infofile_;_ZIP::ssf2.xml_;_
+SAPGuiWindowContext.SAPGuiEdit("Sales Organization").Set "3020"									'Set the Sales Org, could be data driven from datasheet or a parameter @@ hightlight id_;_2_;_script infofile_;_ZIP::ssf2.xml_;_
+SAPGuiWindowContext.SAPGuiEdit("Distribution Channel").Set "30"									'Set the Dist. Channel, could be data driven from datasheet or a parameter @@ hightlight id_;_3_;_script infofile_;_ZIP::ssf2.xml_;_
+SAPGuiWindowContext.SAPGuiEdit("Division").Set "00"												'Set the Devision, could be data driven from datasheet or a parameter @@ hightlight id_;_4_;_script infofile_;_ZIP::ssf2.xml_;_
 SAPGuiWindowContext.SAPGuiEdit("Division").SetFocus												'Ensure focus is on the Division field @@ hightlight id_;_4_;_script infofile_;_ZIP::ssf2.xml_;_
 SAPGuiWindowContext.SAPGuiButton("Enter").Click													'Click the "Enter" SAP GUI button @@ hightlight id_;_5_;_script infofile_;_ZIP::ssf2.xml_;_
 
 Set SAPGuiWindowContext = SAPGuiSession("Session").SAPGuiWindow("Create ZTA Standard Order:")	'Set the WindowContext to make the script more readable
 
 SAPGuiWindowContext.SAPGuiEdit("PO Number").Set PONumber										'Enter the PO Number (calculated with the random number function)
-SAPGuiWindowContext.SAPGuiEdit("Sold-to party").Set "271"										'Enter the Sold-to number, could be data driven from datasheet @@ hightlight id_;_2_;_script infofile_;_ZIP::ssf3.xml_;_
-SAPGuiWindowContext.SAPGuiEdit("Ship-to party").Set "271"										'Enter the Ship-to nuber, could be data driven from datasheet @@ hightlight id_;_3_;_script infofile_;_ZIP::ssf3.xml_;_
+SAPGuiWindowContext.SAPGuiEdit("Sold-to party").Set "271"										'Enter the Sold-to number, could be data driven from datasheet or a parameter @@ hightlight id_;_2_;_script infofile_;_ZIP::ssf3.xml_;_
+SAPGuiWindowContext.SAPGuiEdit("Ship-to party").Set "271"										'Enter the Ship-to nuber, could be data driven from datasheet or a parameter @@ hightlight id_;_3_;_script infofile_;_ZIP::ssf3.xml_;_
 SAPGuiWindowContext.SAPGuiEdit("PO Number").SetFocus											'Ensure the focus is on the PO Number field @@ hightlight id_;_1_;_script infofile_;_ZIP::ssf3.xml_;_
 SAPGuiWindowContext.SendKey ENTER																'Hit the Enter key to submit the data currently on the form @@ hightlight id_;_0_;_script infofile_;_ZIP::ssf3.xml_;_
-SAPGuiWindowContext.SAPGuiTable("All items").SetCellData 1,"Material","100-100"					'Enter in the material number for the first line, could be data driven from datasheet @@ hightlight id_;_1_;_script infofile_;_ZIP::ssf4.xml_;_
-SAPGuiWindowContext.SAPGuiTable("All items").SetCellData 1,"Order Quantity","1"					'Enter the Quantity for the first line, could be data driven from datasheet @@ hightlight id_;_1_;_script infofile_;_ZIP::ssf4.xml_;_
+SAPGuiWindowContext.SAPGuiTable("All items").SetCellData 1,"Material","100-100"					'Enter in the material number for the first line, could be data driven from datasheet or a parameter @@ hightlight id_;_1_;_script infofile_;_ZIP::ssf4.xml_;_
+SAPGuiWindowContext.SAPGuiTable("All items").SetCellData 1,"Order Quantity","1"					'Enter the Quantity for the first line, could be data driven from datasheet or a parameter @@ hightlight id_;_1_;_script infofile_;_ZIP::ssf4.xml_;_
 SAPGuiWindowContext.SAPGuiTable("All items").SelectCell 1,"Order Quantity"						'Keep focus in the Order Quantity field, step could be removed, just showing how to do it @@ hightlight id_;_1_;_script infofile_;_ZIP::ssf4.xml_;_
 SAPGuiWindowContext.SAPGuiButton("Enter").Click													'Click the check/submit SAP GUI button @@ hightlight id_;_2_;_script infofile_;_ZIP::ssf4.xml_;_
 
