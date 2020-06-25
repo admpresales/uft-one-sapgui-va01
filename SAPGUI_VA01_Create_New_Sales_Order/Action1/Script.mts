@@ -17,6 +17,8 @@ fnRandomNumberWithDateTimeStamp = Int(sDate & sMonth & sYear & sHour & sMinute &
 End Function
 '======================== End Function =====================
 
+'Here is a diff
+
 Dim PONumber, OrderNumber
 
 PONumber = "PO" & fnRandomNumberWithDateTimeStamp
