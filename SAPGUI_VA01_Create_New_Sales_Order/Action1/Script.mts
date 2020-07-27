@@ -65,14 +65,14 @@ SAPGuiWindowContext.SAPGuiStatusBar("StatusBar").Sync											'Wait for the St
 '		1 - As an Output from a Checkpoint (stored in the Object Repository)
 '		2 - As a variable that could be used in the script
 '		3 - As an Output Parameter for use when calling the Action
+'		4 - Saving the output value on the data table for reuse later, FYI - this only impacts the RUNTIME version of the datatable
 '===========================================================
 SAPGuiWindowContext.SAPGuiStatusBar("StatusBar").Output CheckPoint("StatusBar")					'Output the order number as a checkpoint @@ hightlight id_;_1_;_script infofile_;_ZIP::ssf11.xml_;_
 OrderNumber = SAPGuiSession("Session").SAPGuiWindow("Create ZTA Standard Order:").SAPGuiStatusBar("StatusBar").GetROProperty("item2") ' Output the order number as a variable
 Parameter("OP_OrderNumber") = OrderNumber														'Output the OrderNumber as an Output Parameter
+DataTable.Value("dtOrderNumber","Global") = OrderNumber
 
 SAPGuiWindowContext.SAPGuiButton("Exit   (Shift+F3)").Click										'Exit the TCode @@ hightlight id_;_1_;_script infofile_;_ZIP::ssf12.xml_;_
-
-Set SAPGuiWindowContext = SAPGuiSession("Session").SAPGuiWindow("SAP Easy Access")				'Set the WindowContext to make the script more readable
 
 Set SAPGuiWindowContext = SAPGuiSession("Session").SAPGuiWindow("SAP Easy Access")				'Set the WindowContext to make the script more readable
 
